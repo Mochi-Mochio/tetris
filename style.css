@@ -1,0 +1,80 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: system-ui;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+canvas {
+  background: #000;
+  border: 2px solid #555;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.panel-box {
+  background: #222;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+
+.score-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mobile-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.btn {
+  background: #333;
+  color: #eee;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
+.game-over {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #555;
+}
+
+.hidden {
+  display: none;
+}
+
+/* スキン */
+body.neon {
+  background: #000;
+  color: #0ff;
+}
+
+body.dark {
+  background: #000;
+  color: #fff;
+}
